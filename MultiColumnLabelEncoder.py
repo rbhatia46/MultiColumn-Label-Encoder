@@ -1,3 +1,5 @@
+from sklearn.preprocessing import LabelEncoder
+
 class MultiColumnLabelEncoder(LabelEncoder):
     """
     Wraps sklearn LabelEncoder functionality for use on multiple columns of a
